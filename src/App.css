@@ -13,4 +13,16 @@
   flex-direction: row;
 }
 
+.hoverTitle:hover{
+  color: #b20710
+}
+
+.price{
+  color:#b20710
+}
+
+.bestSellersSlide{
+  display:flex;
+}
+
 
