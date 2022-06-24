@@ -25,4 +25,30 @@
   display:flex;
 }
 
+.vertudo{
+  font-size: small;
+  color:#b20710;
+  text-decoration: underline;
+}
+
+.vertudo:hover{
+  text-decoration: none;
+}
+
+.subInput{
+  display:flex;
+  flex-direction: row;
+}
+
+.images:hover{
+  transform:scale(1.0);
+}
+
+.rightSideImages{
+  display:flex;
+  flex-direction: row;
+}
+
+
+
 
