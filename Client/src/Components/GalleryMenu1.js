@@ -9,12 +9,22 @@ import kettlebeltsImage from '../Images/kettlebeltsImage.jpg'
 function GalleryMenu1() {
   return (
     <Container >
-  <Row className="galleryMenu1">
-    <Col className="galleryCol"><Image fluid className="imageGallery"src= {kitSetPumpsImage} alt="woman lifting"></Image><h5 className="imageText">KIT SET PUMPS</h5></Col>
-    <Col><div className="rightSideImages"><div className='secondImage'><Image fluid src= {barrasImage} alt="weight bar"></Image></div><div className="thirandfourthImage"><Image fluid src= {discosImage} alt="?"></Image><br></br><Image fluid src= {kettlebeltsImage} alt="kettlebelts image"></Image></div></div></Col>
-  </Row>
-</Container>
+      <Row className="galleryMenu1">
+        <Col className="galleryCol"><Image fluid className="imageGallery" src={kitSetPumpsImage} alt="woman lifting"></Image><h5 className="imageText">KIT SET PUMPS</h5></Col>
+        <Col className="galleryCol">
+          <div className="rightSideImages">
+            <div className="galleryCol">
+              <Image fluid className="imageGallery" src={barrasImage} alt="weight bar">
+              </Image><h5 className="imageText">KIT SET PUMPS</h5></div>
+            <div className="thirandfourthImage">
+              <Image fluid className="imageGallery" src={discosImage} alt="?"></Image><h5 className="imageText">KIT SET PUMPS</h5><br></br><Image fluid className="imageGallery" src={kettlebeltsImage} alt="kettlebelts image">
+              </Image><h5 className="imageText">KIT SET PUMPS</h5></div>
+          </div>
+        </Col>
+      </Row>
+    </Container>
   )
 }
 
 export default GalleryMenu1
+

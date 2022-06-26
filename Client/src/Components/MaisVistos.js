@@ -45,7 +45,7 @@ function MaisVistos() {
           
             {productsList.map((elem) => {
               return (
-                <SwiperSlide><Card key={elem.name} style={{ width: '18rem' }}>
+                <SwiperSlide className='swiperSlide'><Card key={elem.name} style={{ width: '18rem' }}>
                   <Card.Img variant="top" src={elem.image} alt={elem.name} />
                   <Card.Body>
                     <Card.Title className="hoverTitle">{elem.name}</Card.Title>

@@ -49,6 +49,83 @@
   flex-direction: row;
 }
 
+.lastGallery{
+  background-color: black;
+  color: white;
+}
 
+.infoBoomfit{
+  color: #777777 ;
+  background-color: #F6F6F6;
+}
 
+.hoverFooter{
+  color:#777777;
+  font-size:small
+}
 
+.hoverFooter:hover{
+  color:#b20710
+}
+
+#logoboomfit{
+  max-width: 155px;
+}
+
+.navbarBoom{
+  background-color: black;
+}
+
+.copyIcon{
+  max-width: 15px;
+}
+
+#footerLeftImage{
+  max-width: 250px;
+}
+
+.d-flex{
+  width: 800px;
+}
+
+#userIcon{
+  max-width: 20px;
+  margin:5px
+}
+
+.homeEDIT{
+  margin-bottom: 100px;
+}
+
+.imageText{
+  position: absolute;
+  color: white;
+  width: 95%;
+  top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-align: left;
+  padding: 0 11%;
+  height: 77%;
+  align-content: end;
+  text-transform: uppercase;
+  color: #f6f6f6;
+  line-height: 113%;
+  display: grid;
+  padding-left: 30px; 
+}
+
+.imageGallery{
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+.galleryCol{
+  display: flex;
+}
+
+.signup{
+  margin: 100px;
+  justify-content: center;
+}

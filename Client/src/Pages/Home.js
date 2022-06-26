@@ -10,40 +10,52 @@ import GalleryMenu3 from '../Components/GalleryMenu3'
 import Marcas from '../Components/Marcas'
 import MaisVistos from '../Components/MaisVistos'
 import FormSubscricao from '../Components/FormSubscricao'
+import LastGallery from '../Components/LastGallery'
+import InfoBoomfit from '../Components/InfoBoomfit'
+import Footer from '../Components/Footer'
 
 
 function Home() {
     return (
-        <Container fluid>
+        <Container fluid className='homepage'>
             <Row>
                 <Col><BannerDesconto /></Col>
             </Row>
             <Row>
-                <Col><HeadNavBar /></Col>
+                <Col className='homeEDIT'><HeadNavBar /></Col>
             </Row>
             <Row>
-                <Col><GalleryMenu1 /></Col>
+                <Col className='homeEDIT'><GalleryMenu1 /></Col>
             </Row>
             <Row>
-                <Col><BestSellers /></Col>
+                <Col className='homeEDIT'><BestSellers /></Col>
             </Row>
             <Row>
-                <Col><GalleryMenu2 /></Col>
+                <Col className='homeEDIT'><GalleryMenu2 /></Col>
             </Row>
             <Row>
-                <Col><ProdutosEmDestaque /></Col>
+                <Col className='homeEDIT'><ProdutosEmDestaque /></Col>
             </Row>
             <Row>
-                <Col><GalleryMenu3 /></Col>
+                <Col className='homeEDIT'><GalleryMenu3 /></Col>
             </Row>
             <Row>
-                <Col><Marcas /></Col>
+                <Col className='homeEDIT'><Marcas /></Col>
             </Row>
             <Row>
-                <Col><MaisVistos /></Col>
+                <Col className='homeEDIT'><MaisVistos /></Col>
             </Row>
             <Row>
-                <Col><FormSubscricao /></Col>
+                <Col className='homeEDIT'><FormSubscricao /></Col>
+            </Row>
+            <Row>
+                <Col className='homeEDIT'><LastGallery /></Col>
+            </Row>
+            <Row>
+                <Col className='homeEDIT'><InfoBoomfit /></Col>
+            </Row>
+            <Row>
+                <Col className='homeEDIT'><Footer/></Col>
             </Row>
         </Container>
 

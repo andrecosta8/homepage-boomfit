@@ -38,12 +38,13 @@ function BestSellers() {
         <Col>
           <Swiper
             modules={[Navigation]}
-            spaceBetween={40}
             slidesPerView={4}
+            spaceBetween={40}
             navigation
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
           >
+          
           
             {productsList.map((elem) => {
               return (
