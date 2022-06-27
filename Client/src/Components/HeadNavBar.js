@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 function HeadNavBar() {
     return (
         <>
-            <Navbar className='navbarBoom' collapseOnSelect expand="lg">
+            <Navbar className='navbarBoom' collapseOnSelect expand="lg" >
                 <Container>
                     <Navbar.Brand><Image id="logoboomfit" src={logoBoomfit} alt="logo"></Image></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
